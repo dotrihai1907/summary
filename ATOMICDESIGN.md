@@ -19,6 +19,6 @@ Cách chia component theo Atomic Design cho feature LoginPage:
 
 Về phần CSS và logic, ta có thể thể tổ chức theo cách mà mình cảm thấy phù hợp nhất.
 - CSS: viết ở phần nào cũng được.
-- logic: nên viết ở những tầng cao, để các thành phần bên dưới có thể táu sử dụng được
+- logic: nên viết ở những tầng cao (pages hoặc template), để các thành phần tầng bên dưới vẫn có thể tái sử dụng được.
 
 
