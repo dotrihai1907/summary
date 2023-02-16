@@ -15,7 +15,7 @@ Cách chia component theo Atomic Design cho feature LoginPage:
 - Templates: nhóm các organisms thành 1 phần của trang.
   + LoginPageTemplate: component bao gồm organisms LoginCard và Header, tạo thành 1 trang đăng nhập đầy đủ.
 - Pages: chứa các templates và hiển thị cho người dùng.
-  + LoginPage: component chứ template LoginPageTemplate, hiển thị cho người dùng trang đăng nhập. 
+  + LoginPage: component chứa template LoginPageTemplate, hiển thị cho người dùng trang đăng nhập. 
 
 Về phần CSS và logic, ta có thể thể tổ chức theo cách mà mình cảm thấy phù hợp nhất.
 - CSS: viết ở phần nào cũng được.
