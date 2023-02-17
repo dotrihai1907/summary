@@ -88,7 +88,7 @@ console.log(Direction.DOWN) // 2
 console.log(Direction.LEFT) // 6
 console.log(Direction.RIGHT) // 7
 ```
-Ta có thế sử dụng chuỗi làm giá trị cho enum, nhưng trong trường hợp này phải gán giá trị cho tất cả lựa chọn trong chuỗ `enum`.
+Ta có thế sử dụng chuỗi làm giá trị cho enum, nhưng trong trường hợp này phải gán giá trị cho tất cả lựa chọn trong chuỗi `enum`.
 ```
 enum Direction {
   UP = 'Up',
