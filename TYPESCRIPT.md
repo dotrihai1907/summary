@@ -185,7 +185,7 @@ let myCar: Required<Car> = {
 };
 ```
 
-### `Readonly<Type>
+### `Readonly<Type>`
 Chuyển tất cả props của `Type` thành `readonly`, không update được.
 
 ### `Record<Keys, Type>`
