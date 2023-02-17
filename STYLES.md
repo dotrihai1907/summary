@@ -86,7 +86,7 @@ body {
 }
 
 // styles.scss
-@use 'base';
+@import 'base';
 
 .inverse {
   background-color: base.$primary-color;
