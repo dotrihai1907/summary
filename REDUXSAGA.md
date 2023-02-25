@@ -3,7 +3,7 @@
 ## Khái niệm
 
 ### Middleware
-Middleware là 1 lớp trung gian nằm giữa Dispatch Action vaf Reducers. Nó sẽ được gọi trước khi 1 action được dispatch đến Reducers.
+Middleware là 1 lớp trung gian nằm giữa Dispatch Action và Reducers. Nó sẽ được gọi trước khi 1 action được dispatch đến Reducers.
 
 Middleware trong Redux Saga được sử dụng để giải quyết các vấn đề liên quan đến xử lý tác vụ bất đồng bộ, như gọi API, xử lý dữ liệu từ các yêu cầu mạng, hoặc thực hiện các tác vụ đòi hỏi xử lý non-blocking. Từ đó giúp đảm bảo rằng tất cả các tác vụ được thực hiện một cách đồng bộ và đảm bảo tính nhất quán của trạng thái của ứng dụng.
 
@@ -40,6 +40,7 @@ function* simpleSagaFunction() {
 - `race()`: chạy nhiều effects đồng thời, sau đó hủy tất cả nếu 1 trong số đó kết thúc.
 - `fork()`: sử dụng cơ chế non - blocking call trên function.
 - `yield()`: chạy tuần tự khi nào trả ra kết quả thì mới thực thi tiếp.
+- `select()`: giúp chạy 1 selector function để lấy data từ state có trước
 
 ## Cách gọi 1 generator function trong 1 generator function khác
 
